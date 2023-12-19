@@ -13,7 +13,7 @@ Configure local environment variables:
 ### Linux alias
 
 ```sh
-alias ddlogs=docker logs --follow dd-apm-test-agent
+alias ddlogs="docker logs --follow dd-apm-test-agent"
 ```
 
 ## Run
