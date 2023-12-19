@@ -1,0 +1,11 @@
+version: "3"
+services:
+  agent:
+    image: ghcr.io/datadog/dd-apm-test-agent/ddapm-test-agent:latest
+    container_name: dd-apm-test-agent
+    ports:
+      - "8126:8126"
+    environment:
+      - SNAPSHOT_CI=0
+    volumes:
+      - $PWD/tests/snapshots:/snapshots
