@@ -10,6 +10,12 @@ Configure local environment variables:
 * `DD_TRACE_AGENT_URL`=`http://127.0.0.1:8126`
 * `DD_KEY`=`empty`
 
+### Linux alias
+
+```sh
+alias ddlogs=docker logs --follow dd-apm-test-agent
+```
+
 ## Run
 
 ```sh
