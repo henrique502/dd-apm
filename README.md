@@ -16,7 +16,7 @@ Configure local environment variables:
 docker compose up -d
 ```
 
-## Run
+## See logs
 
 ```sh
 docker logs --follow dd-apm-test-agent
